@@ -24,6 +24,25 @@
         android:id="@+id/textView"
         android:layout_below="@+id/surfaceView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="86dp" />
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/button"
+        android:visibility="gone"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/surfaceView"
+        android:layout_alignStart="@+id/surfaceView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/surfaceView"
+        android:layout_alignEnd="@+id/surfaceView" />
 
 </RelativeLayout>
